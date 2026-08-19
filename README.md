@@ -287,10 +287,10 @@ A aprovação definitiva da adoção permanece sujeita à avaliação da Associa
 
 ## 📸 Demonstração
 
-![Fluxo do projeto](docs/AUPP-Fluxo do Workflow.jpg)
+![AUPP_bot](docs/AUPP-Fluxo do Workflow.jpg)
 
 ## 🎥 Vídeo de demonstração
 
-[▶️ Assistir à demonstração](docs/AUPP_bot.mp4)
+[![Título do Vídeo](https://youtu.be/EWsItj9BoeQ)
 
 
