@@ -211,16 +211,16 @@ Principais campos:
 
 O AI Agent é responsável por:
 
-interpretar as respostas do usuário;
-manter o contexto da conversa;
-realizar uma pergunta por vez;
-identificar informações já fornecidas;
-consultar os animais cadastrados;
-selecionar o animal mais compatível;
-apresentar um animal alternativo quando necessário;
-apresentar as informações do animal;
-coletar os dados do interessado;
-executar a ferramenta responsável pelo registro do interessado.
+- interpretar as respostas do usuário;
+- manter o contexto da conversa;
+- realizar uma pergunta por vez;
+- identificar informações já fornecidas;
+- consultar os animais cadastrados;
+- selecionar o animal mais compatível;
+- apresentar um animal alternativo quando necessário;
+- apresentar as informações do animal;
+- coletar os dados do interessado;
+- executar a ferramenta responsável pelo registro do interessado.
 
 O envio do Termo de Adoção é realizado pelo workflow e não pelo AI Agent.
 
