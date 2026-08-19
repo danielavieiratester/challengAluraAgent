@@ -223,6 +223,8 @@ executar a ferramenta responsável pelo registro do interessado.
 
 O envio do Termo de Adoção é realizado pelo workflow e não pelo AI Agent.
 
+---
+
 💬 Memória da conversa
 
 O workflow utiliza um recurso de memória para preservar o contexto entre as mensagens enviadas pelo usuário.
@@ -233,6 +235,8 @@ Exemplo:
 {{ $('Telegram Trigger').first().json.message.chat.id }}
 
 Dessa forma, respostas enviadas separadamente podem ser interpretadas como parte do mesmo atendimento.
+
+---
 
 🔐 Cuidados com os dados
 
@@ -248,6 +252,8 @@ A autorização para contato é armazenada explicitamente como true ou false.
 
 Caso o usuário não autorize o contato de uma protetora, sua decisão deve ser respeitada, sem insistência.
 
+---
+
 ⚠️ Tratamento de falhas
 
 Durante o desenvolvimento e os testes, foram considerados possíveis erros relacionados aos serviços externos utilizados pelo projeto.
@@ -261,6 +267,8 @@ falhas no registro do interessado;
 falhas no envio de mensagens ou documentos pelo Telegram.
 
 O workflow também utiliza lógica de controle para evitar que o Termo de Adoção seja enviado antes da etapa de registro do interessado.
+
+---
 
 🚧 Restrições
 🆓 Foram utilizadas neste projeto apenas ferramentas e recursos gratuitos.
@@ -279,7 +287,7 @@ A aprovação definitiva da adoção permanece sujeita à avaliação da Associa
 
 ## 📸 Demonstração
 
-![Fluxo do projeto](docs/AUPP-Fluxo do Workflow.jpeg)
+![Fluxo do projeto](docs/AUPP-Fluxo do Workflow.jpg)
 
 ## 🎥 Vídeo de demonstração
 
