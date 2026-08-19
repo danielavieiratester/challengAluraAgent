@@ -147,7 +147,7 @@ O arquivo utilizado no workflow é:
 
 O documento é enviado ao usuário por meio do Telegram.
 
-![Termo de Adoção](docs/Termo_de_adoção.pdf)
+[Termo de Adoção](docs/Termo_de_adoção.pdf)
 
 ---
 
