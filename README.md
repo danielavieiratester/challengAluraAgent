@@ -137,7 +137,7 @@ O registro é realizado somente após a coleta das informações solicitadas dur
 
 ---
 
-📄 Termo de Adoção
+## 📄 Termo de Adoção
 
 O envio do Termo de Adoção é realizado pelo workflow do n8n, separadamente da atuação do AI Agent.
 
@@ -145,9 +145,9 @@ O fluxo foi estruturado para que o envio do documento ocorra após o registro do
 
 O arquivo utilizado no workflow é:
 
-Termo_de_Adoção.pdf
-
 O documento é enviado ao usuário por meio do Telegram.
+
+![Termo de Adoção](docs/Termo_de_adoção.pdf)
 
 ---
 
