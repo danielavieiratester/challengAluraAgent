@@ -245,9 +245,9 @@ O bot solicita dados pessoais somente após o usuário manifestar interesse em f
 
 São solicitados:
 
-nome completo;
-e-mail;
-autorização para contato.
+- nome completo;
+- e-mail;
+- autorização para contato.
 
 A autorização para contato é armazenada explicitamente como true ou false.
 
@@ -261,11 +261,11 @@ Durante o desenvolvimento e os testes, foram considerados possíveis erros relac
 
 Entre eles:
 
-429 Too Many Requests — limite de requisições do modelo de IA;
-503 Service Unavailable — indisponibilidade temporária do modelo;
-falhas na consulta ao PostgreSQL;
-falhas no registro do interessado;
-falhas no envio de mensagens ou documentos pelo Telegram.
+- 429 Too Many Requests — limite de requisições do modelo de IA;
+- 503 Service Unavailable — indisponibilidade temporária do modelo;
+- falhas na consulta ao PostgreSQL;
+- falhas no registro do interessado;
+- falhas no envio de mensagens ou documentos pelo Telegram.
 
 O workflow também utiliza lógica de controle para evitar que o Termo de Adoção seja enviado antes da etapa de registro do interessado.
 
@@ -276,9 +276,9 @@ O workflow também utiliza lógica de controle para evitar que o Termo de Adoç�
 🆓 Foram utilizadas neste projeto apenas ferramentas e recursos gratuitos.
 
 ⏳ Os limites estabelecidos pela ferramenta Chat Model no workflow do n8n e o prazo limite para entrega do projeto impossibilitaram a geração das seguintes evidências:
-💾 Gravação do interesse do usuário na tabela interessados;
-📄 Envio do arquivo Termo_de_Adoção.pdf.
-🐾 Associação Unidos Pelas Patas — AUPP
+- 💾 Gravação do interesse do usuário na tabela interessados;
+- 📄 Envio do arquivo Termo_de_Adoção.pdf.
+- 🐾 Associação Unidos Pelas Patas — AUPP
 
 O projeto utiliza automação e Inteligência Artificial para aproximar pessoas interessadas em adoção dos animais resgatados pela ONG, tornando o primeiro atendimento mais simples e acessível.
 
