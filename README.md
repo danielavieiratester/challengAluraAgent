@@ -122,6 +122,7 @@ A autorização de contato pode ser:
 A negativa de autorização **não impede o registro da manifestação de interesse**.
 
 ---
+
 ## 💾 Registro do interessado
 
 Após receber todas as informações necessárias, o AI Agent utiliza uma Tool do PostgreSQL para registrar o interessado.
@@ -151,7 +152,7 @@ O documento é enviado ao usuário por meio do Telegram.
 
 ---
 
-🛠️ Tecnologias e ferramentas
+## 🛠️ Tecnologias e ferramentas
 
 | Tecnologia/Ferramenta | Utilização                                               |
 | --------------------- | -------------------------------------------------------- |
@@ -164,11 +165,11 @@ O documento é enviado ao usuário por meio do Telegram.
 
 ---
 
-🗄️ Banco de dados
+## 🗄️ Banco de dados
 
 O projeto utiliza PostgreSQL para armazenar as informações dos animais resgatados e dos interessados em adoção.
 
-🐕 Tabela resgatados
+## 🐕 Tabela resgatados
 
 A tabela armazena informações dos animais disponíveis para adoção.
 
@@ -192,7 +193,7 @@ Entre os dados utilizados estão:
 
 ---
 
-👤 Tabela interessados
+## 👤 Tabela interessados
 
 A tabela é destinada ao armazenamento das manifestações de interesse.
 
@@ -206,7 +207,7 @@ Principais campos:
 
 ---
 
-🧠 Inteligência Artificial
+## 🧠 Inteligência Artificial
 
 O AI Agent é responsável por:
 
@@ -225,7 +226,7 @@ O envio do Termo de Adoção é realizado pelo workflow e não pelo AI Agent.
 
 ---
 
-💬 Memória da conversa
+## 💬 Memória da conversa
 
 O workflow utiliza um recurso de memória para preservar o contexto entre as mensagens enviadas pelo usuário.
 
@@ -238,7 +239,7 @@ Dessa forma, respostas enviadas separadamente podem ser interpretadas como parte
 
 ---
 
-🔐 Cuidados com os dados
+## 🔐 Cuidados com os dados
 
 O bot solicita dados pessoais somente após o usuário manifestar interesse em fornecer essas informações.
 
@@ -254,7 +255,7 @@ Caso o usuário não autorize o contato de uma protetora, sua decisão deve ser 
 
 ---
 
-⚠️ Tratamento de falhas
+## ⚠️ Tratamento de falhas
 
 Durante o desenvolvimento e os testes, foram considerados possíveis erros relacionados aos serviços externos utilizados pelo projeto.
 
@@ -270,8 +271,10 @@ O workflow também utiliza lógica de controle para evitar que o Termo de Adoç�
 
 ---
 
-🚧 Restrições
+## 🚧 Restrições
+
 🆓 Foram utilizadas neste projeto apenas ferramentas e recursos gratuitos.
+
 ⏳ Os limites estabelecidos pela ferramenta Chat Model no workflow do n8n e o prazo limite para entrega do projeto impossibilitaram a geração das seguintes evidências:
 💾 Gravação do interesse do usuário na tabela interessados;
 📄 Envio do arquivo Termo_de_Adoção.pdf.
