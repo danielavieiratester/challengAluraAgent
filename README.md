@@ -275,4 +275,14 @@ A indicação de um animal e o preenchimento do Termo de Adoção representam um
 
 A aprovação definitiva da adoção permanece sujeita à avaliação da Associação Unidos Pelas Patas (AUPP).
 
+---
+
+## 📸 Demonstração
+
+![Fluxo do projeto](docs/AUPP-Fluxo do Workflow.jpeg)
+
+## 🎥 Vídeo de demonstração
+
+[▶️ Assistir à demonstração](docs/AUPP_bot.mp4)
+
 
